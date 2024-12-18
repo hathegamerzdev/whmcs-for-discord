@@ -3,8 +3,8 @@ Want instant Discord notifications? Need to know when you've received a ticket r
 
 ## Installation Instructions
 1. Download a free copy of this GitHub repo or release version; you should end up with a `.zip` file.
-2. Extract the file and upload the `includes` folder within the zip to your base WHMCS directory (we'd recommend doing so on a development environment first).
-3. Open up the file you have just uploaded, which will be within the `includes/hooks` directory. The full path is `includes/hooks/WHMCS-Discord-Notifications.php`
+2. Extract the file and upload the `whmcs-for-discord` folder within the zip to your base WHMCS directory (we'd recommend doing so on a development environment first).
+3. Open up the file you have just uploaded, which will be within the `whmcs-for-discord` directory. The full path is `whmcs-for-discord/WHMCS-Discord-Notifications.php`
 4. Modify lines `11-41` to enter your Discord configuration. Comments are provided below each option to assist you in understanding what data is needed for each.
 5. Modify lines `42-74` to your liking to enable or disable which notifications are sent by the hook to your Discord server.
 6. Give it a test! Check to make sure it sends through to the channel configured within your Discord server; if it doesn't work, double-check your config options! **Enjoy!**
